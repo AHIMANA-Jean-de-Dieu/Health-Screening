@@ -1,0 +1,118 @@
+<html>
+<head>
+<title> Online Health Screening</title>
+<style type="text/css">
+	tr.jd {   
+font-weight: bold;
+padding: 100px; 
+text-decoration: none; 
+} 
+
+
+.drop {
+background-color:#339966;
+color:white;
+padding:16px;
+font-size:16px;
+border:none;
+cursor:pointer;
+}
+
+.Menu {
+position: relative;
+display:inline-block;
+}
+
+.drop-content {
+display:none;
+position:absolute;
+background-color:#ccffcc;
+min-width:160px;
+box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index:1;
+}
+
+.drop-content a {
+color:black;
+padding:12px 16px;
+text-decoration:none;
+display:block;
+}
+
+.drop-content a:hover {
+background-color:#000040;
+}
+
+.Menu:hover .drop-content {
+display:block;
+}
+
+.Menu:hover  .drop {
+background-color:#006666;
+}
+</style>
+</head>
+<body><center><table border="0" width="100%">
+<tr>
+	<td  width="120"><img src="../pics/h1.jpg" width="120" height="100" border="0" alt=""></td>
+	<td style="background-color:#ffffff"><marquee><p><em><strong><font size="6" color="#368987">Online Health Screening</font></strong></em></p></marquee></td>
+	<td width="120"><img src="../pics/r11.jpg" width="120" height="100" border="0" alt=""></td>
+</tr>
+</table></center></body>
+<center><body style="background-color:white"> <input type="search" name="" ><input type="button" value="seatrch" onclick="" >
+<center><img src="wlcome.gif" width="568" height="50" border="0" alt=""></center>
+ <center><table border="0" width="100%"  height="20">
+ <tr class="jd">
+	<td ><a href="health.html">HOME</a></td>
+	<td ><a href="about.html">ABOUT</a></td>
+	<td ><a href="services.html">SERVICES</a></td>
+	<td ><a href="contact.html">CONTACT US</a></td>
+	<td ><div class="Menu">
+	<button class="drop">Login</button>
+	<div class="drop-content">
+	<a href="doctorp.php">Doctor Login</a>
+	<a href="patientlogin.php">Patient Login</a>
+	</div>
+	</div></td>
+	
+ </tr>
+ </table></center>
+
+<center><table width="100%" style="background-color:#004040" >
+<tr >
+	<td><img src="../pics/h4.jpg" width="306" height="180" border="0" alt=""></td><td><video width="326" height="180" controls>
+	<source src="blood.mp4" type="video/mp4">
+</video></td><td><img src="../pics/h7.jpg" width="272" height="180" border="0" alt=""></td><td><img src="../pics/h6.jpg" width="265" height="180" border="0" alt=""></td>
+<center><p><b><font size="6" color=""></td>
+</tr>
+</table></center><marquee>Maintaining good health should be the primary focus of everyone.</marquee></font></b></p></center>
+
+<center><table border="0" width="100%" height="100">
+<tr>
+	<td width="310" ><img src="../pics/r11.jpg" width="310" height="180" border="0" alt=""></td>
+	<td style="background-color:#c0c0c0"><center><img src="../pics/h9.jpg" width="310" height="180" border="0" alt=""></center></td>
+	<td style="background-color:#c0c0c0"><center><img src="../pics/h3.jpg" width="200" height="180" border="0" alt=""></center></td>
+	<td width="251"><img src="../pics/he33.jpg" width="251" height="180" border="0" alt=""></td>
+	
+</tr>
+</table></center>
+
+<center><table border="0" width="100%" style="background-color:#004040">
+<tr>
+	<td><ul>
+  <strong><li>Terms</li><br>
+  <li><a href="privacy.html">Privacy</a></li><br>
+  <li>Copyright</li></strong>
+</ul><style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+</style></td>
+
+	
+</table></center>
+<center>&copy 2021 Online health screening</center>
+</body></center>
+</html>

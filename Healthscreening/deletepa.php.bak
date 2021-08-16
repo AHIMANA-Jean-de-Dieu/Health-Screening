@@ -1,0 +1,22 @@
+<?php
+   include("connect.php");
+   
+   $r = "DELETE FROM patient WHERE id =".$_GET['id'];
+   
+   $dx = mysqli_query($con, $r);
+   if(!$dx){
+	   echo "Failed ".mysqli_error($con);
+   }else{
+	   //echo "User deleted successfly";
+	   ?>
+		   
+		   <tr>
+		   <td><?php echo $r['id'];?></td>
+		   
+		   <td><a href="deletepa.php?id=<?php echo $r['id'];?>"> Delete </a></td>
+		   </tr>
+	    <?php    
+   }
+       
+   
+?>

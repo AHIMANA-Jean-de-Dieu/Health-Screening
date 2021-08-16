@@ -1,0 +1,16 @@
+<?php
+   include("connect.php");
+   
+   $r = "SELECT * FROM patient WHERE id =".$_GET['id'];
+   
+   $dx = mysqli_query($con, $r);
+   if(!$dx){
+	   echo "Failed";
+   }
+   while($d = mysqli_fetch_array($dx)){
+	   echo "user id: ".$d["id"]."<br/>";
+	   echo "user fname: ".$d["fname"]."<br/>";
+	   echo "user lname: ".$d["lname"]."<br/>";
+   }
+   
+?>
